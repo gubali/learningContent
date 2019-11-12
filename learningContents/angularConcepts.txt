@@ -53,3 +53,6 @@ FormControl: It tracks the value and validation status of the individual form co
 FormGroup: It tracks the same values and status for the collection of form controls.
 FormArray:It tracks the same values and status for the array of the form controls.
 ControlValueAccessor: It creates the bridge between Angular FormControl instances and native DOM elements.
+
+===========buld by differnce enviroenmnt with view fro dist folder============================
+1) ng serve -c={environment_name}  // create dist folder and run from compile folder
