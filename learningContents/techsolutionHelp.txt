@@ -8,15 +8,6 @@ packgage.log.josn: veersion installed in system
 ~6.8.2 = install only revision(bug)
 ^6.8.2 = minor and revesion check and upper level intall
 7.0.0 = major(Breaking change).minor(new feature).revision(Bug) //Angular version
-
-
-
-
-
-
-
-
-
 ====================End==========================
 Reactive Form
 
@@ -63,4 +54,11 @@ ControlValueAccessor: It creates the bridge between Angular FormControl instance
 PATH=C:\Program Files\Git\bin;%PATH%
 
 
-
+============================git setup in your project=======================
+Go inside into folder directive
+git init
+git add .
+git commit -m "Your message"
+ git remote add origin repository_path
+git remote -v
+git push origin master/branch_name
