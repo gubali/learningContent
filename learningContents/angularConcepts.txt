@@ -56,3 +56,11 @@ ControlValueAccessor: It creates the bridge between Angular FormControl instance
 
 ===========buld by differnce enviroenmnt with view fro dist folder============================
 1) ng serve -c={environment_name}  // create dist folder and run from compile folder
+
+
+===================solve this issue: error-git-is-not-recognized-as-internal-or-external-command====================================
+
+PATH=C:\Program Files\Git\bin;%PATH%
+
+
+
